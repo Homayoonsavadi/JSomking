@@ -192,7 +192,7 @@ if __name__ == "__main__":
     print(f"{Fore.GREEN}{Style.BRIGHT}*** 0xpwn ***{Style.RESET_ALL}")
 
     if len(sys.argv) != 4:
-        print(f"{Fore.RED}[USAGE]{Style.RESET_ALL} python JsDownloader.py <URL> <OUTPUT_FOLDER> <KEYWORD_FILE>")
+        print(f"{Fore.RED}[USAGE]{Style.RESET_ALL} python JsFucker.py <URL> <OUTPUT_FOLDER> <KEYWORD_FILE>")
         sys.exit(1)
 
     start_url = sys.argv[1]
